@@ -1,0 +1,15 @@
+#body 
+{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width : 320px;
+	height : 460px;
+}
+
+.animatedLeft
+{
+	display: block ;
+	-webkit-transition: left 1s ease-in-out ;
+	transition: left 1s ease-in-out ;
+}

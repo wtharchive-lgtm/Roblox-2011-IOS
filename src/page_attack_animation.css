@@ -1,0 +1,17 @@
+#page_attack_animation_canvas 
+{
+	border: 0px solid #9C9898;
+}
+
+#page_attack_animation_container 
+{
+	-webkit-transform : scale(1.0, 1.0);
+	-ms-transform : scale(1.0, 1.0);
+	opacity: 1.0;
+	visibility : hidden;
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	width : 320px;
+	height : 400px;
+}

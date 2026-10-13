@@ -1,0 +1,25 @@
+#page_friends_canvas 
+{
+	border: 0px solid #9C9898;
+	position : absolute;
+	top : 0px;
+	left : 0px;
+}
+
+#page_friends_container 
+{
+	-webkit-transform : scale(1.0, 1.0);
+	-ms-transform : scale(1.0, 1.0);
+	opacity: 1.0;
+	visibility : hidden;
+	position : absolute;
+	top : 0px;
+	left : 0px;
+}
+
+#page_friends_friend_list
+{
+	width:320px; 
+	height:400px; 
+	overflow:auto;
+}

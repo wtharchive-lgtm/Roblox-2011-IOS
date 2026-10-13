@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+
+	<meta name="viewport" content="user-scalable=no, width=300, height=400, initial-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+
+        <script src="src/controls.js"></script>
+
+        <script src="src/page_main.js"></script>
+	<link rel="stylesheet" href="src/page_main.css" type="text/css" media="all" />
+
+        <script src="src/page_profile.js"></script>
+	<link rel="stylesheet" href="src/page_profile.css" type="text/css" media="all" />
+
+        <script src="src/page_friends.js"></script>
+	<link rel="stylesheet" href="src/page_friends.css" type="text/css" media="all" />
+
+        <script src="src/page_messages.js"></script>
+	<link rel="stylesheet" href="src/page_messages.css" type="text/css" media="all" />
+
+        <script src="src/page_login.js"></script>
+	<link rel="stylesheet" href="src/page_login.css" type="text/css" media="all" />
+
+        <script src="src/main.js"></script>
+    </head>
+    <body style="width:300px;height:400px;border:none;clip:rect(0px,300px,400px,0px);" >
+	<div id="page_main_container">
+	        <canvas id="page_main_canvas" width="320" height="460"></canvas>	
+	</div>
+	<div id="page_friends_container">
+	        <canvas id="page_friends_canvas" width="320" height="46"></canvas>
+			<div id="page_friends_friend_list">
+			</div>
+	</div>
+	<div id="page_messages_container">
+	        <canvas id="page_messages_canvas" width="320" height="46"></canvas>	
+			<div id="page_messages_message_list">			
+			</div>
+	</div>
+	<div id="page_profile_container">
+	        <canvas id="page_profile_canvas" width="320" height="460"></canvas>	
+	</div>
+	<div id="page_login_container">
+		<img src="images/login_background.png" id="login_background" style="position:absolute;top:0px;left:0px;width:320px;height:460px;">
+		<img src="images/roblox_caption.png" id="login_background_caption">
+		<input id="username" name="username" placeholder="Username"/>
+		<input id="password" name="password" type="password" placeholder="Password" onKeyPress="return DoLogin(this,event)"/>
+	</div>
+    </body>
+</html>

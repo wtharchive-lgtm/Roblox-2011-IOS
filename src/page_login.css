@@ -1,0 +1,41 @@
+
+#username 
+{
+	position : absolute;
+	top : 100px;
+	left : 50px;
+	width : 200px;
+}
+
+#password 
+{
+	position : absolute;
+	top : 140px;
+	left : 50px;
+	width : 200px;
+}
+
+#submit 
+{
+	position : absolute;
+	top : 180px;
+	left : 200px;
+}
+
+#login_background_caption 
+{
+	position : absolute;
+	top : 40px;
+	left : 50px;
+}
+            
+#page_login_container 
+{
+	-webkit-transform : scale(1.0, 1.0);
+	-ms-transform : scale(1.0, 1.0);
+	opacity: 1.0;
+	visibility : hidden;
+	position : absolute;
+	top : 0px;
+	left : 0px;
+}
